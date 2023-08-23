@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-swagger-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "lint:fix": "eslint --fix src; prettier --write src"
+  },
+  "author": "Souhei.H",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
